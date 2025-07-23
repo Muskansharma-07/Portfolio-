@@ -1,0 +1,115 @@
+ body {
+      font-family: 'Quicksand', sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background: #F5FFFA; */
+      background-color: white;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      /* background: #fefefe; */
+    }
+    header h1 {
+      /* font-family: 'Baloo 2', cursive; */
+      font-size: 3rem;
+      margin: 0;
+          font-size: 4rem;
+   
+    font-weight: bold;
+    }
+    header h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: #555;
+    }
+    .hero-img {
+      width: 180px;
+      border-radius: 20px;
+      margin: 20px auto;
+      display: block;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h3 {
+      font-family: 'Baloo 2', cursive;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      /* text-align: center; */
+    }
+    .experience, .contact, .projects {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    
+    .card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 12px;
+      flex: 1 1 280px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    .card1 {
+      /* background: #f9f9f9; */
+      padding: 20px;
+      border-radius: 12px;
+      flex: 1 1 280px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    .projects .card {
+      text-align: center;
+      background: #fff;
+    }
+    .projects img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .project-box {
+      width: 18%;
+      text-align: center;
+    }
+    .project-box img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    .project-box p {
+      font-weight: bold;
+    }
+    .tech-stack img {
+      height: 30px;
+      margin: 0 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    a {
+  text-decoration: none;   /* removes underline */
+  color: #333; 
+}
+.contact-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.contact-icons a {
+  color: #333;
+  transition: transform 0.2s, color 0.3s;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.2);
+  color: #0077b5; /* LinkedIn blue */
+}
